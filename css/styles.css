@@ -10019,8 +10019,8 @@ img::-moz-selection {
 }
 
 #mainNav {
-  /* padding-top: 1rem;
-  padding-bottom: 1rem; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: #e8e8e8;
 }
 #mainNav .navbar-toggler {
@@ -10054,9 +10054,8 @@ img::-moz-selection {
 
 @media (min-width: 992px) {
   #mainNav {
-    /* padding-top: 1.5rem;
-    padding-bottom: 1.5rem; */
-    height: 76px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     border: none;
     background-color: transparent;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
@@ -10070,8 +10069,8 @@ img::-moz-selection {
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
-    /* padding-top: 1rem;
-    padding-bottom: 1rem; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: #e8e8e8;
   }
   #mainNav.navbar-shrink .navbar-brand {
@@ -10486,7 +10485,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   min-width: 244px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  top: 56px;
+  /* top: 56px; */
 }
 
 .dropdown-content a {
