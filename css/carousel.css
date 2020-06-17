@@ -42,7 +42,7 @@ img {vertical-align: middle;}
   transition: 0.9s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  right: -12px !important;
+  right: -12`px !important;
 }
 /* Position the "next button" to the right */
 .next {
@@ -112,4 +112,8 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+@media only screen and (max-width: 600px) {
+  .prev, .next,.text {font-size: 11px}
+  .prev { left: -20px !important;}
 }
