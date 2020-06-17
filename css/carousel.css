@@ -42,7 +42,7 @@ img {vertical-align: middle;}
   transition: 0.9s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  right: -54px !important;
+  right: -12px !important;
 }
 /* Position the "next button" to the right */
 .next {
