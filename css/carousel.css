@@ -13,7 +13,7 @@ img {vertical-align: middle;}
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -23,11 +23,27 @@ img {vertical-align: middle;}
   color: white;
   font-weight: bold;
   font-size: 18px;
-  transition: 0.6s ease;
+  transition: 0.9s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-}
+  left: -54px !important;
 
+}
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.9s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  right: -54px !important;
+}
 /* Position the "next button" to the right */
 .next {
   right: 0;
